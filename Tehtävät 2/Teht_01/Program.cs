@@ -10,8 +10,24 @@ namespace Teht_01
     {
         static void Main(string[] args)
         {
-            //Hallo
+            int koko;
+            List<int> pisteet = new List<int>();
+            int i = 0;
+            Console.WriteLine("Viiden tuomarin pisteet.");
 
+            while (i < 5)
+            {
+                Console.Write("Anna pisteet > ");
+                koko = Convert.ToInt32(Console.ReadLine());
+                i++;
+                pisteet.Add(koko);
+            }
+            int max = pisteet.Max();
+            int min = pisteet.Min();
+            int sum = pisteet.Sum();
+            sum -= (min + max);
+            Console.WriteLine("Pisteet ovat : {0}", sum);
+            Console.ReadLine();
         }
     }
 }
