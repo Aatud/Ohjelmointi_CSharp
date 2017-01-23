@@ -13,22 +13,16 @@ namespace Teht_06
             string sana;
             
             Console.Write("Anna sana jonka haluat testata > ");
-            sana = Console.ReadLine();
-            string anas = "";
-            int q = sana.Length - 1;
-            for (int i = 0; i < sana.Length; i++)
-            {
-                //anas = sana[q].Join.ToString();
-                anas = String.Join("", sana[q]);
-                Console.Write(sana[q]);
-                q--;
-            }
-            if (sana == anas)
+            sana = Convert.ToString(Console.ReadLine());
+            char[] anas = sana.ToCharArray();
+            Array.Reverse(anas);
+            string joku = new string(anas);
+            if (sana == joku)
             {
                 Console.WriteLine("Sana on palidromi");
             }
             else {Console.WriteLine("Sana ei ole palidromi");}
-            Console.Write(anas+"\n" + sana);
+            Console.Write(joku+"\n" + sana);
             Console.ReadLine();
             
         }
