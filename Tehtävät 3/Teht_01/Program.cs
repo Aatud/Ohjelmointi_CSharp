@@ -20,9 +20,10 @@ namespace Teht_01
             hotstone.Tulosta();
             Console.ReadLine();
 
+            //sammuttaa kiukaan
             hotstone.Off();
             hotstone.Tulosta();
-            Console.ReadLine();
+            Console.ReadLine();            
         }
     }
 }
