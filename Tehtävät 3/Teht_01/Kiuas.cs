@@ -25,14 +25,6 @@ namespace Teht_01
         {
             OnOff = false;
         }
-        public void Tulosta()
-        {
-            Console.WriteLine("Kiuas asetukset:");
-            Console.WriteLine("- Malli : " + Malli);
-            Console.WriteLine("- Väri : " + Väri);
-            Console.WriteLine("- Päällä : " + OnOff);
-            Console.WriteLine("- Lämpötila : " + Lämpötila);
-            Console.WriteLine("- Kosteus : " + Kosteus);
-        }
+        
     }
 }

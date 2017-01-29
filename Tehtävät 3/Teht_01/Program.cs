@@ -17,12 +17,23 @@ namespace Teht_01
             hotstone.Lämpötila = 90;
             hotstone.Kosteus = 5;
 
-            hotstone.Tulosta();
+            Console.WriteLine("Kiuas asetukset:");
+            Console.WriteLine("- Malli : " + hotstone.Malli);
+            Console.WriteLine("- Väri : " + hotstone.Väri);
+            Console.WriteLine("- Päällä : " + hotstone.OnOff);
+            Console.WriteLine("- Lämpötila : " + hotstone.Lämpötila);
+            Console.WriteLine("- Kosteus : " + hotstone.Kosteus);
             Console.ReadLine();
 
             //sammuttaa kiukaan
             hotstone.Off();
-            hotstone.Tulosta();
+
+            Console.WriteLine("Kiuas asetukset:");
+            Console.WriteLine("- Malli : " + hotstone.Malli);
+            Console.WriteLine("- Väri : " + hotstone.Väri);
+            Console.WriteLine("- Päällä : " + hotstone.OnOff);
+            Console.WriteLine("- Lämpötila : " + hotstone.Lämpötila);
+            Console.WriteLine("- Kosteus : " + hotstone.Kosteus);
             Console.ReadLine();            
         }
     }
