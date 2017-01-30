@@ -18,7 +18,7 @@ namespace Teht_04
             car.PrintData();
             Console.ReadLine();
 
-            car.AsString();
+            Console.Write(car.ToString());
             Console.ReadLine();
         }
     }

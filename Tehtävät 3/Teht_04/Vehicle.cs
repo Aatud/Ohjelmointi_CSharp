@@ -21,9 +21,9 @@ namespace Teht_04
             Console.WriteLine("- Speed : " + Speed);
             Console.WriteLine("- Tyres : " + Tyres);
         }
-        public void AsString()
+        public override string ToString()
         {    
-            Console.Write(("Vehicle: Name: "+Name +" Speed: "+ Speed +" Tyres: "+ Tyres));
+            return "Vehicle: \n- Name: "+Name +"\n- Speed: "+ Speed +"\n- Tyres: "+ Tyres;
         }
     }
 }
