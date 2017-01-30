@@ -29,7 +29,7 @@ namespace Teht_06
 
         public override string ToString()
         {
-            return "CD:\n- Artist: " + Artist + "\n- Album: " + AlbumName + "\n- Genre: " + Genre + "\n- Release year: " + ReleaseYear + "\n- Price: " + Price;
+            return ("CD:\n- Artist: " + Artist + "\n- Album: " + AlbumName + "\n- Genre: " + Genre + "\n- Release year: " + ReleaseYear + "\n- Price: " + Price).ToString();
         }
     }
 }

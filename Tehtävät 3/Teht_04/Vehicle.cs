@@ -23,7 +23,7 @@ namespace Teht_04
         }
         public override string ToString()
         {    
-            return "Vehicle: \n- Name: "+Name +"\n- Speed: "+ Speed +"\n- Tyres: "+ Tyres;
+            return ("Vehicle: \n- Name: "+Name +"\n- Speed: "+ Speed +"\n- Tyres: "+ Tyres).ToString();
         }
     }
 }
