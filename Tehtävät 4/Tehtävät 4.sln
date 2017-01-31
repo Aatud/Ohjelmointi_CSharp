@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht_01", "Teht_01\Teht_01.csproj", "{ACD12FA5-829B-4205-95EA-FED54DE8CBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht_03", "Teht_03\Teht_03.csproj", "{682F9404-9792-40BB-AE2D-BC5DE2A24EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD12FA5-829B-4205-95EA-FED54DE8CBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD12FA5-829B-4205-95EA-FED54DE8CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD12FA5-829B-4205-95EA-FED54DE8CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD12FA5-829B-4205-95EA-FED54DE8CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682F9404-9792-40BB-AE2D-BC5DE2A24EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682F9404-9792-40BB-AE2D-BC5DE2A24EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682F9404-9792-40BB-AE2D-BC5DE2A24EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682F9404-9792-40BB-AE2D-BC5DE2A24EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
