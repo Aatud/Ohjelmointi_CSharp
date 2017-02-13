@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Teht_01
 {
-    class Persons
+    class Persons : Person
     {
 
         public List<Persons> persons;
@@ -18,7 +18,7 @@ namespace Teht_01
 
         public void AddPerson()
         {
-            persons.Add(new Person{FirstName, LastName, Age, RegisterNum, Address, HairColor});
+            persons.Add(new Persons {FirstName, });
         }
         public void GetPerson()
         {

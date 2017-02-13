@@ -10,7 +10,9 @@ namespace Teht_01
     {
         static void Main(string[] args)
         {
-
+            Persons henkilöt = new Persons();
+            Person Matti = new Person();
+            henkilöt.AddPerson(Matti.FirstName = "MAtti", Matti.LastName = "Kohonen");
         }
     }
 }
