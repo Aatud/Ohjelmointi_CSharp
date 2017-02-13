@@ -15,10 +15,6 @@ namespace Teht_01
         public string Address { get; set; }
         public string HairColor { get; set; }
 
-        public Person()
-        {
-
-        }
 
         public Person(string firstname, string lastname, int age, int registernum, string address, string haircolor)
         {

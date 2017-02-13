@@ -6,38 +6,35 @@ using System.Threading.Tasks;
 
 namespace Teht_01
 {
-    class Persons : Person
+    class Persons
     {
 
-        public List<Persons> persons;
+        public List<Person> lista = new List<Person>();
 
-        public Persons()
+        public void AddPerson(Person person)
         {
-
+            this.lista.Add(person);
         }
-
-        public void AddPerson()
+        public void GetPerson(int index)
         {
-            persons.Add(new Persons {FirstName, });
+            Console.WriteLine(lista.ElementAt(index));
         }
-        public void GetPerson()
+        public void FindPerson(int RegisterNum)
         {
-
-        }
-        public void FindPerson()
-        {
-
+            foreach (Person person in lista)
+            {
+                if (lista.Equals(RegisterNum))
+                {
+                    Console.Write(person.ToString());
+                }
+            }
         }
         public void PrintData()
         {
-            foreach (Person person in persons)
+            foreach (Person person in lista)
             {
                 Console.WriteLine(person.ToString());
             }
-        }
-        public override string ToString()
-        {
-            return FirstName + " " + LastName + " " + Age;
-        }        
+        }  
     }
 }
