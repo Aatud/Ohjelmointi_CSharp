@@ -7,28 +7,36 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="642,225,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="712,262,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="642,299,0,0" VerticalAlignment="Top" Width="65"/>
+    <Grid Background="Transparent">
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="642,225,0,0" VerticalAlignment="Top" Width="65" BorderBrush="#FF8F1818"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="712,262,0,0" VerticalAlignment="Top" Width="65" FocusVisualPrimaryBrush="#FF0C69B6" FocusVisualSecondaryBrush="#99CF9F1F" Foreground="#FFB82020"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="642,299,0,0" VerticalAlignment="Top" Width="65" Background="#33AA9430"/>
         <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="712,225,0,0" VerticalAlignment="Top" Width="65"/>
         <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="642,262,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="572,262,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="572,262,0,0" VerticalAlignment="Top" Width="65" Background="#33A128C5"/>
         <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="572,225,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="572,299,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="712,299,0,0" VerticalAlignment="Top" Width="65"/>
-        <Button x:Name="buttonremove" Content="&lt;-" HorizontalAlignment="Left" Margin="782,225,0,0" VerticalAlignment="Top" Width="65" Click="buttonremove_Click"/>
-        <Button x:Name="buttonok" Content="ok" HorizontalAlignment="Left" Margin="782,262,0,0" VerticalAlignment="Top" Height="106" Width="65" Click="buttonok_Click"/>
-        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="572,336,0,0" VerticalAlignment="Top" Height="32" Width="135"/>
-        <Button x:Name="buttondot" Content="." HorizontalAlignment="Left" Margin="712,336,0,0" VerticalAlignment="Top" Width="65" Click="buttondot_Click"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="572,299,0,0" VerticalAlignment="Top" Width="65" Background="#331FA02B"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="712,299,0,0" VerticalAlignment="Top" Width="65" Background="#3321AC79"/>
+        <Button x:Name="buttonremove" Content="&lt;-" HorizontalAlignment="Left" Margin="782,225,0,0" VerticalAlignment="Top" Width="65" Click="buttonremove_Click" Background="#FFF36400"/>
+        <Button x:Name="buttonok" Content="ok" HorizontalAlignment="Left" Margin="782,262,0,0" VerticalAlignment="Top" Height="106" Width="65" Click="buttonok_Click" Background="#33BD9EBC"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="572,336,0,0" VerticalAlignment="Top" Height="32" Width="135" Background="#334D45FD">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF27A856" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="buttondot" Content="." HorizontalAlignment="Left" Margin="712,336,0,0" VerticalAlignment="Top" Width="65" Click="buttondot_Click" Background="#334AB21A"/>
         <TextBox x:Name="lukutextBox" HorizontalAlignment="Left" Margin="572,188,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="275" TextAlignment="Right"/>
         <RadioButton x:Name="radioButtonTemp" Content="Temperature" HorizontalAlignment="Left" Margin="572,389,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <RadioButton x:Name="radioButtonHum" Content="Humidity" HorizontalAlignment="Left" Margin="727,389,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="181,299,0,0" TextWrapping="Wrap" Text="Temperature: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="181,336,0,0" TextWrapping="Wrap" Text="Humidity: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="402,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="402,336,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="181,299,0,0" TextWrapping="Wrap" Text="Temperature: " VerticalAlignment="Top" FontFamily="Showcard Gothic" FocusVisualPrimaryBrush="Black" Foreground="#FFFF0505"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="181,336,0,0" TextWrapping="Wrap" Text="Humidity: " VerticalAlignment="Top" FontFamily="Verdana" Foreground="#FF42C511"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="402,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Foreground="#FFC82AEC"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="402,336,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Foreground="#FF40ABD3"/>
         <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="572,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlockModel" HorizontalAlignment="Left" Margin="97,138,0,0" TextWrapping="Wrap" Text="Heatenings" VerticalAlignment="Top" FontFamily="Showcard Gothic" FocusVisualPrimaryBrush="Black" Foreground="#FFFF0505" FontSize="48"/>
 
     </Grid>
 </Page>
