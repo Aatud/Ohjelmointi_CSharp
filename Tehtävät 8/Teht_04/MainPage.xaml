@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Teht_04.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Teht_04"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="642,225,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="712,262,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="642,299,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="712,225,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="642,262,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="572,262,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="572,225,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="572,299,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="712,299,0,0" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="buttonremove" Content="&lt;-" HorizontalAlignment="Left" Margin="782,225,0,0" VerticalAlignment="Top" Width="65" Click="buttonremove_Click"/>
+        <Button x:Name="buttonok" Content="ok" HorizontalAlignment="Left" Margin="782,262,0,0" VerticalAlignment="Top" Height="106" Width="65" Click="buttonok_Click"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="572,336,0,0" VerticalAlignment="Top" Height="32" Width="135"/>
+        <Button x:Name="buttondot" Content="." HorizontalAlignment="Left" Margin="712,336,0,0" VerticalAlignment="Top" Width="65" Click="buttondot_Click"/>
+        <TextBox x:Name="lukutextBox" HorizontalAlignment="Left" Margin="572,188,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="275" TextAlignment="Right"/>
+        <RadioButton x:Name="radioButtonTemp" Content="Temperature" HorizontalAlignment="Left" Margin="572,389,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="radioButtonHum" Content="Humidity" HorizontalAlignment="Left" Margin="727,389,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="181,299,0,0" TextWrapping="Wrap" Text="Temperature: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="181,336,0,0" TextWrapping="Wrap" Text="Humidity: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="402,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="402,336,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="572,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
