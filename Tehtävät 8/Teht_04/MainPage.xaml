@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Transparent">
+    <Grid Background="Tan">
         <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="642,225,0,0" VerticalAlignment="Top" Width="65" BorderBrush="#FF8F1818"/>
         <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="712,262,0,0" VerticalAlignment="Top" Width="65" FocusVisualPrimaryBrush="#FF0C69B6" FocusVisualSecondaryBrush="#99CF9F1F" Foreground="#FFB82020"/>
         <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="642,299,0,0" VerticalAlignment="Top" Width="65" Background="#33AA9430"/>
