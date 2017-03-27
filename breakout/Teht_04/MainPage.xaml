@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Teht_04.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Teht_04"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="RandomNumberTextBlock" HorizontalAlignment="Left" Margin="595,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="519,103,0,0" VerticalAlignment="Top" Click="StartButton_Click"/>
+        <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="657,103,0,0" VerticalAlignment="Top" Click="StopButton_Click"/>
+
+    </Grid>
+</Page>
